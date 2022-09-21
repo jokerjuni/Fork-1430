@@ -1,23 +1,26 @@
 @import url(./fonts.css);
 
 
-:root{
+:root {
     --font-primary: 'Roboto';
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1376px;
     width: 100%;
     margin: 0 auto;
@@ -56,7 +59,48 @@ ul{
 
 
 /* slider start */
+.slider__section {
+    padding: 76px 0;
+}
 
+.slider__h2 {
+    font-size: 52px;
+    font-weight: 400;
+    color: #692340;
+    text-align: center;
+    padding: 72px 0;
+}
+
+.silder__items {
+    display: flex;
+    justify-content: center;
+    column-gap: 118px;
+
+}
+
+.silder__item img {
+    width: 456px;
+    height: 570px;
+    align-self: center;
+}
+
+.texs {
+    width: 349px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 73px;
+}
+
+.text1 {
+    color: #692340;
+    font-size: 40px;
+
+}
+.text2 {
+    color: #692340;
+    font-size: 30px;
+
+}
 
 
 
@@ -95,6 +139,3 @@ ul{
 
 
 /* footer end */
-
-
-
